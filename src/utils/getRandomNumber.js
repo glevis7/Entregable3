@@ -1,5 +1,6 @@
-const getRandomNumber = () => {
-    Math.random(Math.random() * 126) + 1
+
+const getRandomNumber = (limit) => {
+   return Math.floor(Math.random() * limit) + 1
 }
 
 export default getRandomNumber

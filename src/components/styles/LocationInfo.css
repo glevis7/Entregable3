@@ -1,0 +1,44 @@
+.location {
+    background-color: #062226;
+    color: white;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 0.8em;
+    overflow: hidden;
+    transition: transform 200ms ease;
+    box-shadow: 1px 1px 9px  rgb(1, 15, 1);
+    margin: 0 auto;
+    margin-bottom: 30px;
+    
+}
+.location:hover {
+    transform: scale(1.05);
+}
+.location__body {
+    padding: 1em 0.8em 1em;
+    position: centro;
+    flex-shrink: 0;
+    flex-direction: row;
+
+}
+.location__name {
+    color: var(--color-green);
+    text-align: center;
+}
+.location__list { 
+    display: flex;
+    justify-content: space-around;
+    gap: 0.8em;
+}
+.location__item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2em;
+}
+.location__label {
+    color: #aaa;
+    font-weight: 300;
+}
+.location__item-value {
+    padding-left: 1em;
+}
